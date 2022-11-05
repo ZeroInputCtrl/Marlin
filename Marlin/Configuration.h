@@ -99,6 +99,7 @@
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
 #define SERIAL_PORT 2
+ /**
  * Serial Port Baud Rate
  * This is the default communication speed for all serial ports.
  * Set the baud rate defaults for additional serial ports below.
@@ -2056,7 +2057,7 @@
  * - Allows Z homing only when XY positions are known and trusted.
  * - If stepper drivers sleep, XY homing may be required again before Z homing.
  */
- 
+
 #define Z_SAFE_HOMING
 
 #if ENABLED(Z_SAFE_HOMING)
